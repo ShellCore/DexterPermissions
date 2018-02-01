@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Dexter Permissions</string>
+
+    <!--Main-->
+    <string name="main.btn.camera_permission">Camera Permission</string>
+    <string name="main.btn.contacts_permission">Contacts Permission</string>
+    <string name="main.btn.audio_permission">Audio Permission</string>
+    <string name="main.btn.all_permissions">All Permissions</string>
+
+    <string name="permission.unknown">Unknown!</string>
+    <string name="permission.granted">Granted!</string>
+    <string name="permission.denied">Denied!</string>
+    <string name="permission.permanently_denied">Permanently Denied!?</string>
 </resources>

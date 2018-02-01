@@ -8,7 +8,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.shellcore.android.dexterpermissions"
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -30,4 +30,13 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+
+    // Excluri dependencias dentro de otras dependencias
+//    implementation 'com.karumi:dexter:4.2.0', {
+//        exclude group: 'com.android.support', module: 'appcompat-v7'
+//        exclude group: 'com.android.support', module: 'design'
+//    }
+
+    implementation 'com.karumi:dexter:4.2.0'
+    implementation 'com.android.support:design:26.1.0'
 }
